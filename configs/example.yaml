@@ -1,0 +1,14 @@
+project: altered-agentic-patterns-lab
+mode: research-only
+human_approval_required:
+  - send_order
+  - publish_content
+  - spend_money
+limits:
+  max_position_pct: 2.0
+  max_daily_drawdown_pct: 5.0
+  max_agent_iterations: 8
+observability:
+  trace_enabled: true
+  store_inputs: true
+  store_outputs: true
